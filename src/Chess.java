@@ -3,12 +3,14 @@ import java.util.Scanner;
 public class Chess {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.print("Введите клетку (например b5) > ");
         String cell1 = scanner.nextLine();
         cell1 = cell1.toLowerCase();
         char col1 = cell1.charAt(0);
         char row1 = cell1.charAt(1);
 //        int row1 = a.charAt(1) - '0';
 //        int row1 = Integer.parseInt(a.substring(1));
+        System.out.print("Введите клетку (например d5) > ");
         String cell2 = scanner.nextLine();
         cell2 = cell2.toLowerCase();
         char col2 = cell2.charAt(0);
